@@ -4,7 +4,7 @@
     padding: 0;
 }
 :root{/*usar root es importante para despues cuando queramos hacer cambios masivos*/
-    --primary:#18db86;
+    --primary:rgb(10, 253, 241);
     --secondary:#ffff;
     --secondary-light:rgb(173, 173, 173);
     --dark1:#222222;
