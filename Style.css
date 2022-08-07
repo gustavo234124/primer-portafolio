@@ -202,4 +202,23 @@ section.skills{
     justify-content: center;
     gap: 30px;
 }
+/*ANIMACION DE LA SECCION DE HERAMIENTAS Y CONOCIMIENTOS*/
+.skill h3{
+    background-color: var(--dark2);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    width: 100px;
+    opacity: 0;
+    transform: translate(0px,-110px);
+    color: var(--primary);
+    transition: transform 0.6s ease, opacity 0.4s ease;
+}
 
+.knowledge>div:hover h3,
+.tools>div:hover h3{
+    transform: translate(0px,-150px);
+    opacity: 1;
+
+}
