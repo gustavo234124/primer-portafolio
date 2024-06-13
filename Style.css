@@ -40,7 +40,7 @@ body{
     position: relative;
 }
 .hero img{
-    width: 130%;
+    width: 100%;
     opacity:0.45;
 }
 span{
